@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TV Show Watchlist</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="personal.js"></script>
+</head>
+<body>
+  <h1> My TV Show Watchlist</h1>
+
+  <div class="input-section">
+    <input type="text" id="showInput" placeholder="Add a TV show...">
+    <button id="addShow">Add Show</button>
+  </div>
+
+  <div class="filter-section">
+    <label for="statusFilter">Filter:</label>
+    <select id="statusFilter">
+      <option value="all">All</option>
+      <option value="watched">Watched</option>
+      <option value="unwatched">Unwatched</option>
+    </select>
+  </div>
+
+  <ul id="watchlist"></ul>
+
+</body>
+</html>
